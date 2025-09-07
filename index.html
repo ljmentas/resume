@@ -1,54 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lisandro Mentasti - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Lisandro Mentasti - Site Reliability Engineer">
+  <title>Lisandro Mentasti - Resume</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="resume">
-        <header>
-            <h1>Lisandro Joaquín Mentasti</h1>
-            <p>Email: <a href="mailto:lisandro.mentasti@gmail.com">lisandro.mentasti@gmail.com</a></p>
-        </header>
+  <main class="resume">
+    <!-- Header -->
+    <header class="resume-header">
+      <h1>Lisandro Mentasti</h1>
+      <p>London, UK</p>
+      <div class="links">
+        <a href="https://www.lisandromentasti.com">www.lisandromentasti.com</a>
+        <a href="https://www.linkedin.com/in/lisandromentasti/">LinkedIn</a>
+        <a href="mailto:lisandro.mentasti@gmail.com">lisandro.mentasti@gmail.com</a>
+      </div>
+      <div class="download">
+        <a href="latestresume.pdf" download>Download PDF</a>
+      </div>
+    </header>
 
-        <section>
-            <h2>Professional Experience</h2>
-            <div class="job">
-                <h3>SRE - OKTA</h3>
-                <p><strong>June 2019 - Present</strong></p>
-                <ul>
-                    <li>Develop features for Okta Workflows...</li>
-                    <li>Maintain high availability (HA) for Okta Workflows...</li>
-                </ul>
-            </div>
+    <!-- About -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I’m a Site Reliability Engineer with deep expertise in cloud platforms, Kubernetes, and large-scale reliability.
+        Recognized as a problem solver and leader, I deliver scalable solutions that keep critical systems resilient while enabling engineering teams to move faster with confidence.
+      </p>
+    </section>
 
-            <!-- Add other jobs in similar structure -->
-        </section>
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <div class="experience">
+        <div>
+          <p class="role">Okta — Staff SRE (2019–2025, London, UK)</p>
+          <ul>
+            <li>Designed, implemented and rolled out high impact features like database migration while maintaining HA and disaster recovery clusters.</li>
+            <li>Contributed to the Kubernetes migration platform.</li>
+            <li>Maintained high availability for Okta Workflows during US night hours (on-call, follow-the-sun).</li>
+          </ul>
+        </div>
+        <div>
+          <p class="role">OLX — SRE (2017–2018, Argentina & Boston, US)</p>
+          <ul>
+            <li>Contributed to AWS-hosted Kubernetes OpenShift migration, handling up to 200,000 requests per minute.</li>
+            <li>Pioneered remote working as the first approved remote employee in a 250-person site.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="role">Globant — DevOps Engineer (2016–2017, Argentina)</p>
+          <ul>
+            <li>Led creation of the first cloud production environment for Openbank (Santander Group’s digital bank).</li>
+          </ul>
+        </div>
+        <div>
+          <p class="role">Intel Corp — Software Engineer (2011–2016, Argentina)</p>
+          <ul>
+            <li>Led a team of 6 engineers to develop an automatic deployment tool with Terraform & Kubernetes, supporting key McAfee applications.</li>
+            <li>Awarded “Problem Solver” at the Argentine Development Center (250+ employees).</li>
+          </ul>
+        </div>
+        <div>
+          <p class="role">Grupo Prominente — Software Engineer (2010–2011, Argentina)</p>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <h2>Education</h2>
-            <p><strong>Master in Data Analytics Engineering</strong> - Northeastern University (2019)</p>
-            <p><strong>Systems Engineer</strong> - Universidad Tecnológica Nacional (2009)</p>
-        </section>
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+      <p>Kubernetes (AKS, EKS, self-hosted, OpenShift), Helm, Bash, AWS, Azure, Python, SQL, Terraform</p>
+    </section>
 
-        <section>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Docker, Kubernetes, Openshift</li>
-                <li>Terraform, AWS, Azure AKS</li>
-                <li>Python, Bash</li>
-                <li>MySQL, PostgreSQL</li>
-                <li>Scrum and Agile Methodologies</li>
-            </ul>
-        </section>
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Northeastern University</strong>, Boston, US — Master in Data Analytics Engineering (2019)</li>
+        <li><strong>La Plata National University</strong>, Argentina — Master in Software Engineering (2012)</li>
+        <li><strong>La Plata National University</strong>, Argentina — Systems Engineer (2009)</li>
+      </ul>
+    </section>
 
-        <section>
-            <h2>Awards</h2>
-            <p>Argentine Presidential Fellowship (Fulbright) - Sept 2017</p>
-            <p>Northeastern Dean’s Office Fellowship - Sept 2017</p>
-        </section>
-    </div>
+    <!-- Awards -->
+    <section>
+      <h2>Awards</h2>
+      <ul>
+        <li>Fulbright Scholarship (2017)</li>
+        <li>Northeastern Dean’s Office Fellowship (2017)</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
